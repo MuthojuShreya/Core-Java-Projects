@@ -8,6 +8,7 @@ public class ClassNotFoundExcDemo {
 		try {
 			Class<?> cls =Class.forName(className);
 			System.out.println("class loaded successfully: "+cls.getName());
+			System.out.println("hello world");
 		}
 		catch(ClassNotFoundException e) {
 			System.out.println("Error: calss "+className+" not found");
