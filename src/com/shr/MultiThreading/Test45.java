@@ -1,6 +1,5 @@
 package com.shr.MultiThreading;
 
-
 public class Test45
 {
 	public static void main(String[] args) {
@@ -12,6 +11,5 @@ public class Test45
         });
         t.run();
         System.out.println("Main thread finished");
-        System.out.println("hello world");
     }
 }
